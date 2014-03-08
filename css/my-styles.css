@@ -4,7 +4,7 @@
 }
 
 body {
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .photo  {
@@ -31,4 +31,17 @@ body {
 
 #footer p {
 	margin: 20px 0;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+
+.carousel-indicators li {
+	border-color: #222;
 }
