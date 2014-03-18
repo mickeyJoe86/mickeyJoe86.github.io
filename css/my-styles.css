@@ -1,7 +1,7 @@
 /*Layout==================*/
 .index-body {
 	
-	background-image: url('img/feathers.PNG');
+	background-image: url('img/feathers.png');
 }
 
 .container {
@@ -63,9 +63,6 @@ body {
 	border-color: #222;
 }
 
-div.navbar.navbar-inverse.navbar-fixed-top {
-	background-color: green;
-}
 
 
 .details {
