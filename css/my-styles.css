@@ -18,6 +18,8 @@ body {
 	background-color: white;
 }
 
+
+
 .photo  {
 	text-align: center;
 	margin-top: 24px;
@@ -91,5 +93,54 @@ body {
 
 address {
 	display: none;
+}
+
+blockquote {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1075px;
+	height: 72px;
+	background-color: green;
+	text-align: center; 
+	padding-top: 12px;
+	margin-bottom: 0;
+	position: relative;
+		
+}
+blockquote > span {
+	color: #fff;
+	font-size: 2em;
+	
+	
+}
+
+blockquote:before,
+blockquote:after {
+  content: '';
+  border-top: 37px solid #003300;
+  position: absolute;
+  bottom: -37px;
+  
+}
+
+blockquote:before {
+  border-left: 33px solid transparent;
+  left: 0;
+}
+
+blockquote:after {
+  border-right: 37.5px solid transparent;
+  right: 0;
+}
+
+@media screen and (max-width: 1222px) {
+	blockquote,
+	blockquote > span {
+		display: none;
+	}
+	#map {
+		width: 100%
+	}
+	
 }
 
