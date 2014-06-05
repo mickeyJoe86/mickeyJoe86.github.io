@@ -30,6 +30,13 @@ body {
 	border-radius: 100px;
 }
 
+/* Navbar
+================================= */
+.navbar {
+	background-color: rgba(47, 42, 49, 0.9);
+	border-color: rgba(30, 27, 31, 0.9);
+}
+
 
 
 /*Junbotron==================*/
