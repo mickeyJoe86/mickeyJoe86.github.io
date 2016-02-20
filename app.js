@@ -8,12 +8,12 @@
         .controller('mainCtrl', ['$scope', function($scope){
             $scope.title = "Main Page";
         }]);
-
+        
     angular
         .module('mward')
         .directive('mwardDevMap', [function () {
             return {
-                templateUrl: '/public/templates/map-directive.html',
+                templateUrl: 'src/partials/map-directive.html',
                 replace: true,
                 link: function () {
                     var map = new google.maps.Map(document.getElementById('map'), {
@@ -27,5 +27,7 @@
                 }
             };
         }]);
-})();
+
+
+}());
 

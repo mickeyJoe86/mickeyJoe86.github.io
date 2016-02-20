@@ -31,7 +31,7 @@
 
 </head>
 
-<body ng-controller="mainCtrl" id="page-top">
+<body id="page-top">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -72,12 +72,14 @@
     <ng-include src='"src/partials/aboutMe.html"'></ng-include>
     <ng-include src='"src/partials/mySkills.html"'></ng-include>
     <ng-include src='"src/partials/myPortfolio.html"'></ng-include>
+    <mward-dev-map></mward-dev-map>
     <ng-include src='"src/partials/contactMe.html"'></ng-include>
-    
+
     <!--jQuery, Bootstrap and Angular Libs-->
     <script src="src/assets/lib/jquery.min.js"></script>
     <script src="src/assets/lib/bootstrap.min.js"></script>
     <script src="src/assets/lib/angular.min.js"></script>
+
     <!--Angular Modules-->
     <script src="app.js"></script>
 
