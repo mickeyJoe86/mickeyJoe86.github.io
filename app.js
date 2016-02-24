@@ -27,6 +27,19 @@
                 }
             };
         }]);
+        
+      angular
+        .module('mward')
+        .directive('mwardDevNav', [function() {
+            return {
+                templateUrl: 'src/partials/nav-directive.html',
+                replace: true,
+                controller: 'navCtrl'
+            }
+        }
+            
+            
+        ]);
 
 
 }());
